@@ -1,0 +1,17 @@
+{
+  "name": "diff",
+  "version": "0.0.0",
+  "description": "diff files and recieve stdout",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "diff"
+  ],
+  "author": "TJ Krusinski <tjkrus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^1.4.4"
+  }
+}
