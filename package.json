@@ -1,7 +1,7 @@
 {
-  "name": "diff",
+  "name": "ndiff",
   "version": "0.0.0",
-  "description": "diff files and recieve stdout",
+  "description": "diff files and recieve stdout or callback",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests"
