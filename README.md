@@ -14,7 +14,9 @@ diff(filePath1, filePath2).pipe(process.stdout);
 ### Callback
 ```javascript
 var diff = require('ndiff');
-diff(filePath1, filePath2).pipe(process.stdout);
+diff(filePath1, filePath2, function(diff){
+	console.log(diff);
+});
 ```
 
 ## Tests
