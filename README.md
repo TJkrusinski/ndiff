@@ -7,15 +7,13 @@ $ npm install ndiff
 ## API
 
 ### Stream
-```
+```javascript
 var diff = require('ndiff');
-
 diff(filePath1, filePath2).pipe(process.stdout);
 ```
 ### Callback
-```
+```javascript
 var diff = require('ndiff');
-
 diff(filePath1, filePath2).pipe(process.stdout);
 ```
 
